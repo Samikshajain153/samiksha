@@ -2,24 +2,25 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="fb.css">
+	<script type="text/javascript" src="facebookjavascript.js"></script>
 </head>
 <body>
 <div class="image">
 	<img src="https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg" alt="logo.wine" style="height: 300px;width: 300px">
 </div>
 <div class="helps">
-Facebook helps you connect and share<br>with the people in your life		
+Facebook helps you connect and share<br>with the people in your life.		
 </div>
 <div class="wrapper">
-	<form>
+	<form  action="fbprofile.html" onsubmit="return display()">
 		<div class="input1">
-		<p><input type="text" class="uname" placeholder="Email address or phone number"></p>
+		<p><input id="check1" type="text" class="uname" placeholder="Email address or phone number"></p>
 		</div>
         <div class="input2">
-	    <p><input type="password" class="password" placeholder="Password"></p>
+	    <p><input id="check2" type="password" class="password" placeholder="Password"></p>
         </div>
         <div class="login">
-        <p><input type="submit"  value="Log In" class="login1"></p>	
+        <p><button>Log In</button></p>	
         </div>
         <div class="forget">
          <p><a href="#">Forgotten account?</a></p>	
@@ -31,7 +32,7 @@ Facebook helps you connect and share<br>with the people in your life
     </div>
 	</form>
 	<div class="create">
-		<p><a href="#">Create a Page</a>for a celebrity,band or business.</p>
+		<p><a href="#">Create a Page</a> for a celebrity,band or business.</p>
 	</div>
 </body>
 </html>
