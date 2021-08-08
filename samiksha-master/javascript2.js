@@ -1,0 +1,42 @@
+temp=false;
+function like()
+{
+if(temp==false)
+{
+	document.getElementById('effect').src="https://img.pngio.com/facebook-like-icon-image-14893-free-icons-library-facebook-like-icon-1920_1080.jpg";
+	temp=true;
+}
+else
+{
+	document.getElementById('effect').src="https://static.thenounproject.com/png/50810-200.png";
+	temp=false;
+}
+}
+temp=false;
+function like12()
+{
+if(temp==false)
+{
+	document.getElementById('like13').src="https://img.pngio.com/facebook-like-icon-image-14893-free-icons-library-facebook-like-icon-1920_1080.jpg";
+	temp=true;
+}
+else
+{
+	document.getElementById('like13').src="https://static.thenounproject.com/png/50810-200.png";
+	temp=false;
+}
+}
+temp=false;
+function like14()
+{
+if(temp==false)
+{
+	document.getElementById('like15').src="https://img.pngio.com/facebook-like-icon-image-14893-free-icons-library-facebook-like-icon-1920_1080.jpg";
+	temp=true;
+}
+else
+{
+	document.getElementById('like15').src="https://static.thenounproject.com/png/50810-200.png";
+	temp=false;
+}
+}
